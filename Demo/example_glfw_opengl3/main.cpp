@@ -79,7 +79,7 @@ int main(int, char**)
     ImGuiIO& io = ImGui::GetIO(); (void)io;
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // Enable Keyboard Controls
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
-    io.Fonts->AddFontFromFileTTF("fonts/Dosis-Regular.ttf", 24.0f);
+    io.Fonts->AddFontFromFileTTF("fonts/JetBrainsMono-Regular.ttf", 24.0f);
 
     // Setup Dear ImGui style
     ImGui::StyleColorsDark();
@@ -112,7 +112,7 @@ int main(int, char**)
     // Our state
     bool show_demo_window = true;
     bool show_another_window = false;
-    ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
+    ImVec4 clear_color = ImVec4(0.1f, 0.1f, 0.1f, 1.00f);
 
     // Main loop
 #ifdef __EMSCRIPTEN__
